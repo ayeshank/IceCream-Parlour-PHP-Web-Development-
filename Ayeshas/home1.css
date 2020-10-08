@@ -1,0 +1,72 @@
+a
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;    
+    font-weight: bolder;
+    margin-left: 6%;
+    margin-bottom: 10%;
+    color: black;
+    text-decoration: none;
+}
+
+body
+{
+    background-image: url(7.jpg);
+}
+a:hover
+{
+    color: black;
+}
+#border
+{
+    width:70%;
+    height: 300px;
+    margin-left: 10%;
+}
+#one
+{
+    background-color: black;
+    opacity: 0.6;
+    width: 90%;
+    height: 450px;
+    margin-left: 5%;
+}
+.column
+{
+    float: left;
+    margin-left: 10%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.mylogin
+{
+    background-color: darkgray;
+    text-align: center;
+    opacity: 0.9;
+    border-top: black;
+    border-radius: 4px;
+}
+.fcontrol
+{
+    width:25%;
+    border-radius: 12px;
+    padding: 5px;
+}
+.fcontrol:hover
+{
+    background-color: yellow;
+    color: black;
+}
+.btn
+{
+    width:10%;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: larger;
+    background-color: darkred;
+    color: white;
+}

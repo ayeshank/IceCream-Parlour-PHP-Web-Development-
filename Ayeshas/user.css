@@ -1,0 +1,55 @@
+hr
+{
+    width: 45%;
+    margin-right: 36%;
+}
+body
+{
+    background-image: url(7.jpg);
+}
+form
+{
+    text-align: left;
+    margin-left: 8%;
+}
+.forminput
+{
+    padding: 8px;
+    width: 50%;
+    border-radius: 8px;
+}
+.forminput1
+{
+    width: 23.5%;
+    padding: 8px;
+}
+h1
+{
+    text-align: left;
+    margin-left: 19%;
+}
+legend
+{
+    font-size: x-large;
+    font-weight: bold;
+}
+select
+{
+    width: 52.5%;
+    padding: 8px;
+}
+label
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn
+{
+    text-align: center;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    width: 53%;
+}

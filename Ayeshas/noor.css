@@ -1,0 +1,45 @@
+h1
+    {
+        text-align : center;
+    }
+input
+{
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    border-radius: 9%;
+    padding: 20px;
+    box-shadow: 2px 0px 12px rgba(0, 0, 0, 0.226);
+    border-style: groove;
+    border-radius: 18px;
+    background-color: transparent;
+    font-weight: bolder;
+
+}
+body
+{
+    background-image: url(7.jpg);
+}
+button
+{
+
+    border-radius: 18px;
+    background-image: linear-gradient(to left,rgba(238, 157, 6, 0.837),rgba(192, 12, 153, 0.646));
+    color: black;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color:transparent;
+    width: 10%;
+    padding: 15px;
+    margin-left: 45%;
+    box-shadow: 2px 2px 20px rgba(32, 2, 17, 0.639);
+}
+button:hover
+{
+    transition: transform 0s ease;
+    transform: scale(1.1);
+}
+.error
+{
+    color: red;
+}
